@@ -5,7 +5,7 @@
 
 # Introduction
 
-Plusle is a code only performance driven lightweight theme for WooCommerce using DaisyUI.
+Plusle is a code only performance driven lightweight theme for WooCommerce using [DaisyUI](https://github.com/saadeghi/daisyui).
 
 ## Contributors
 

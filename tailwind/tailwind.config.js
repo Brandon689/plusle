@@ -26,9 +26,9 @@ module.exports = {
 		preflight: includePreflight,
 	},
 	plugins: [
+		require("daisyui"),
 		// Add Tailwind Typography (via _tw fork).
 		require('@_tw/typography'),
-
 		// Extract colors and widths from `theme.json`.
 		require('@_tw/themejson'),
 
