@@ -92,7 +92,7 @@ if ( ! defined( 'plusle_VERSION' ) ) {
 	 * to create your production build, the value below will be replaced in the
 	 * generated zip file with a timestamp, converted to base 36.
 	 */
-	define( 'plusle_VERSION', '0.1.0' );
+	define( 'plusle_VERSION', '0.1.1' );
 }
 
 // if ( ! defined( 'plusle_TYPOGRAPHY_CLASSES' ) ) {
@@ -234,57 +234,6 @@ function plusle_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'plusle_scripts' );
-
-/**
- * Enqueue the block editor script.
- */
-// function plusle_enqueue_block_editor_script() {
-// 	wp_enqueue_script(
-// 		'plusle-editor',
-// 		get_template_directory_uri() . '/js/block-editor.min.js',
-// 		array(
-// 			'wp-blocks',
-// 			'wp-edit-post',
-// 		),
-// 		plusle_VERSION,
-// 		true
-// 	);
-// }
-// add_action( 'enqueue_block_editor_assets', 'plusle_enqueue_block_editor_script' );
-
-/**
- * Enqueue the script necessary to support Tailwind Typography in the block
- * editor, using an inline script to create a JavaScript array containing the
- * Tailwind Typography classes from plusle_TYPOGRAPHY_CLASSES.
- */
-// function plusle_enqueue_typography_script() {
-// 	if ( is_admin() ) {
-// 		wp_enqueue_script(
-// 			'plusle-typography',
-// 			get_template_directory_uri() . '/js/tailwind-typography-classes.min.js',
-// 			array(
-// 				//'wp-blocks',
-// 				'wp-edit-post',
-// 			),
-// 			plusle_VERSION,
-// 			true
-// 		);
-// 		wp_add_inline_script( 'plusle-typography', "tailwindTypographyClasses = '" . esc_attr( plusle_TYPOGRAPHY_CLASSES ) . "'.split(' ');", 'before' );
-// 	}
-// }
-// add_action( 'enqueue_block_assets', 'plusle_enqueue_typography_script' );
-
-/**
- * Add the Tailwind Typography classes to TinyMCE.
- *
- * @param array $settings TinyMCE settings.
- * @return array
- */
-// function plusle_tinymce_add_class( $settings ) {
-// 	$settings['body_class'] = plusle_TYPOGRAPHY_CLASSES;
-// 	return $settings;
-// }
-// add_filter( 'tiny_mce_before_init', 'plusle_tinymce_add_class' );
 
 /**
  * Custom template tags for this theme.
