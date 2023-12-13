@@ -49,7 +49,9 @@ Underscores and Varia are distributed under the terms of the GNU GPL v2 or later
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
-
+.screen-reader-text {
+  display: none;
+}
 *,
 ::before,
 ::after {
