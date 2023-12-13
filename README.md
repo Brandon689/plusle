@@ -1,4 +1,4 @@
-<p><img src="https://raw.githubusercontent.com/Brandon689/plusle/main/screenshot.png" width="260" alt="Plusle theme"></p>
+<p><img src="https://raw.githubusercontent.com/Brandon689/plusle/main/screenshot2.png" width="260" alt="Plusle theme"></p>
 
 [![GitHub release](https://img.shields.io/github/release/Brandon689/plusle?include_prereleases=&sort=semver)](https://github.com/jeffreyvr/tailpress/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
