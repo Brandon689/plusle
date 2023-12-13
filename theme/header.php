@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="halloween" <?php language_attributes(); ?>>
+<html data-theme="winter" <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
@@ -19,7 +19,7 @@
 
 	<div class="navbar bg-base-200">
 	  <div class="flex-1">
-	    <a class="btn btn-ghost text-xl">Plusle</a>
+	    <a class="btn btn-ghost text-xl" href="/">Plusle</a>
 	  </div>
 	  <div class="flex-none">
     <ul class="menu menu-horizontal px-1">

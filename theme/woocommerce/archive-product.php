@@ -2,7 +2,9 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header( 'shop' );
-
+?>
+<div class="container mx-auto">
+<?php
 /**
  * Hook: woocommerce_before_main_content.
  *
@@ -38,7 +40,7 @@ if ( woocommerce_product_loop() ) {
 
 	//woocommerce_product_loop_start();
 	?>
-	<ul class="flex justify-center flex-row">
+	<ul class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
 	<?php
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
@@ -68,6 +70,12 @@ if ( woocommerce_product_loop() ) {
 }
 
 do_action( 'woocommerce_after_main_content' );
+
+?>
+
+</div>
+
+<?php
 
 do_action( 'woocommerce_sidebar' );
 
