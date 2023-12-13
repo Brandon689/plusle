@@ -1,5 +1,5 @@
-	<!DOCTYPE html>
-<html data-theme="bumblebee" <?php language_attributes(); ?>>
+<!DOCTYPE html>
+<html data-theme="halloween" <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
@@ -8,7 +8,7 @@
 
 <body <?php body_class(); ?>>
 
-<div id="page" class="">
+<div id="page" class="bg-base-100">
 	<!-- <header>
 	<a href="/shop">Shop</a>	
 	<a href="/">Home</a>
@@ -17,13 +17,14 @@
 	<a href="/checkout">Checkout</a>
 	</header> -->
 
-	<div class="navbar bg-base-100">
+	<div class="navbar bg-base-200">
 	  <div class="flex-1">
-	    <a class="btn btn-ghost text-xl">daisyUI</a>
+	    <a class="btn btn-ghost text-xl">Plusle</a>
 	  </div>
 	  <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
       <li><a href="/shop">Shop</a></li>
+	  <li><button id="themeSwitcher">Toggle Theme</button></li>
       <li>
         <details>
           <summary>

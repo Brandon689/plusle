@@ -29,6 +29,15 @@
 </footer>
 
 <?php wp_footer(); ?>
+<script>
+        const themedElement = document.querySelector('html');
+        const themeSwitcher = document.getElementById('themeSwitcher');
 
+        themeSwitcher.addEventListener('click', () => {
+            // Toggle between light and dark themes
+			themedElement.setAttribute('data-theme', themedElement.getAttribute('data-theme') === 'winter' ? 'halloween' : 'winter');
+            //themedElement.setAttribute('data-theme', 'winter');
+        });
+    </script>
 </body>
 </html>
