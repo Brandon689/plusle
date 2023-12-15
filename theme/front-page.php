@@ -64,53 +64,9 @@
     </div>
   </section>
 
-
   <?php
-  // Set up your query arguments
-  $args = array(
-    'post_type'      => 'product',
-    'posts_per_page' => 12, // Number of products to display
-    'orderby'        => 'date', // Order by date to get the newest products
-    'order'          => 'DESC', // Order in descending order (newest first)
-  );
-
-  // The Query
-  $products_query = new WP_Query($args);
-
-  if ($products_query->have_posts()) :
-    // Output the product grid
+  ProductGrid(12, 'DATE', 'desc');
   ?>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      <?php while ($products_query->have_posts()) : $products_query->the_post(); ?>
-        <div class="bg-white">
-        <a href="<?php echo $permalink; ?>" class="">
-          <?php
-          // Get the post thumbnail URL
-          $thumbnail_url = get_the_post_thumbnail_url(get_the_ID(), 'medium');
-          ?>
-          <div class="mb-4">
-            <?php if ($thumbnail_url) : ?>
-              <img src="<?php echo esc_url($thumbnail_url); ?>" alt="<?php the_title_attribute(); ?>" class="w-full h-auto rounded-md">
-            <?php endif; ?>
-          </div>
-          <h2 class="text-lg font-semibold mb-2"><?php the_title(); ?></h2>
-          <p class="text-gray-600 mb-2"><?php echo wc_price(get_post_meta(get_the_ID(), '_price', true)); ?></p>
-          <?php
-          // Get the permalink and create the custom link
-          $permalink = esc_url(get_permalink());
-          ?>
-          </a>
-        </div>
-      <?php endwhile; ?>
-    </div>
-  <?php
-    // Restore original post data
-    wp_reset_postdata();
-  else :
-    echo 'No products found';
-  endif;
-  ?>
-
 
 </main>
 

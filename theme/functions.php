@@ -1,5 +1,7 @@
 <?php
 
+require 'custom.php';
+
 add_action('after_setup_theme', function () {
 	remove_action('wp_head', 'feed_links_extra');
 	remove_action('wp_head', 'feed_links');
@@ -63,12 +65,25 @@ add_action('wp_enqueue_scripts', function () {
 	// sort by doesnt work without jquery, find replacement
 	//wp_deregister_script('jquery');
 	//wp_deregister_script('jquery-core');
-
+	//wp_dequeue_script('jquery-blockui');
 	wp_deregister_script('wc-cart-fragments');
 
 	wp_deregister_style('woocommerce-inline');
 	wp_deregister_style('wp-block-library');
 }, 100);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

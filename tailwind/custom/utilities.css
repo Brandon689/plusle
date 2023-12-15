@@ -6,3 +6,7 @@
  *
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
+
+ .screen-reader-text {
+    display: none;
+ }

@@ -31,7 +31,7 @@ module.exports = {
 		require('@_tw/typography'),
 		// Extract colors and widths from `theme.json`.
 		require('@_tw/themejson'),
-
+		require('@tailwindcss/aspect-ratio'),
 		// Uncomment below to add additional first-party Tailwind plugins.
 		// require('@tailwindcss/forms'),
 		// require('@tailwindcss/aspect-ratio'),
