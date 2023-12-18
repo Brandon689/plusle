@@ -11,7 +11,7 @@
 <div id="page" class="bg-base-100 text-base-content">
 	<div class="navbar bg-base-200 px-14 py-8 border-b-2 border-neutral-content mb-6">
 	  <div class="flex-1">
-	    <a class="btn btn-ghost text-xl" href="/">Plusle</a>
+	    <a class="btn btn-ghost text-xl" href="/"><img class="w-28" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/logo.jpg"/></a>
 		<ul class="menu uppercase menu-horizontal rounded-box text-base font-bold">
 			<li><a class="uppercase">New Arrival</a></li>
 			<li><a>Series</a></li>
