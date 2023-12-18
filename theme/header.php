@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html data-theme="winter" <?php language_attributes(); ?>>
+<html data-theme="winter" <?php language_attributes();?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="<?php bloginfo('charset');?>">
 	<meta name="viewport" content="width=device-width">
-	<?php wp_head(); ?>
+	<?php wp_head();?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class();?>>
 
-<div id="page" class="bg-base-100">
-	<!-- <header>
-	<a href="/shop">Shop</a>	
-	<a href="/">Home</a>
-	<a href="/product/b/">Product</a>
-	<a href="/cart">Cart</a>
-	<a href="/checkout">Checkout</a>
-	</header> -->
-
-	<div class="navbar bg-base-200 px-16 py-8 border-b-2 border-gray-300 mb-6">
+<div id="page" class="bg-base-100 text-base-content">
+	<div class="navbar bg-base-200 px-14 py-8 border-b-2 border-neutral-content mb-6">
 	  <div class="flex-1">
 	    <a class="btn btn-ghost text-xl" href="/">Plusle</a>
+		<ul class="menu uppercase menu-horizontal rounded-box text-base font-bold">
+			<li><a class="uppercase">New Arrival</a></li>
+			<li><a>Series</a></li>
+			<li><a>Types</a></li>
+		</ul>
 	  </div>
+
 	  <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
       <li><a href="/shop">Shop</a></li>

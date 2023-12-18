@@ -3,8 +3,8 @@
 
 </div><!-- #page -->
 
-<div>
-  <footer class="footer container p-0 mx-auto text-base-content pb-10">
+<div class="bg-base-200">
+  <footer class="footer container p-0 mx-auto text-base-content pb-10 pt-32">
     <nav>
     <header class="footer-title">Services</header> 
     <a class="link link-hover">Branding</a>
@@ -28,7 +28,7 @@
     </div>
   </nav>
 </footer>
-<div class="border-t-2 border-gray-300">
+<div class="border-t-2 border-neutral-content">
 <div class="container p-0 mx-auto">
   <div class="text-xs text-center p-10">© 2023 PLUSLE THEME ALL RIGHTS RESERVED</div>
 </div>
@@ -40,7 +40,7 @@
 
         themeSwitcher.addEventListener('click', () => {
             // Toggle between light and dark themes
-			themedElement.setAttribute('data-theme', themedElement.getAttribute('data-theme') === 'winter' ? 'halloween' : 'winter');
+			    themedElement.setAttribute('data-theme', themedElement.getAttribute('data-theme') === 'winter' ? 'luxury' : 'winter');
             //themedElement.setAttribute('data-theme', 'winter');
         });
     </script>

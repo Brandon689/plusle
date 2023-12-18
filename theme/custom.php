@@ -14,7 +14,7 @@ function ProductGrid($numberOfProducts, $orderBy, $order) {
     ?>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         <?php while ($products_query->have_posts()) : $products_query->the_post(); ?>
-          <div class="bg-white">
+          <div class="">
           <a href="<?= esc_url(get_permalink()); ?>" class="">
             <?php
             $thumbnail_url = get_the_post_thumbnail_url(get_the_ID(), 'medium');
@@ -25,7 +25,7 @@ function ProductGrid($numberOfProducts, $orderBy, $order) {
               <?php endif; ?>
             </div>
             <h2 class="text-lg font-semibold mb-2"><?php the_title(); ?></h2>
-            <p class="text-gray-600 mb-2"><?= wc_price(get_post_meta(get_the_ID(), '_price', true)); ?></p>
+            <p class="mb-2"><?= wc_price(get_post_meta(get_the_ID(), '_price', true)); ?></p>
             </a>
           </div>
         <?php endwhile; ?>

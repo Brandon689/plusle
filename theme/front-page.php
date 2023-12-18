@@ -5,7 +5,7 @@
     <p class="mt-4 text-lg">Your banner subheading or content goes here.</p>
 </div> -->
 
-<main class="container p-0 mx-auto mb-32">
+<main class="container p-0 mx-auto text-base-content">
   <div class="carousel w-full">
     <div id="slide1" class="carousel-item relative w-full">
       <img src="https://prod-out-res.popmart.com/cms/20231204_190921_4c21f6c199.jpg" class="w-full" />
