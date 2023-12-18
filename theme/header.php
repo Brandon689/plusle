@@ -17,7 +17,7 @@
 	<a href="/checkout">Checkout</a>
 	</header> -->
 
-	<div class="navbar bg-base-200">
+	<div class="navbar bg-base-200 px-16 py-8 border-b-2 border-gray-300 mb-6">
 	  <div class="flex-1">
 	    <a class="btn btn-ghost text-xl" href="/">Plusle</a>
 	  </div>

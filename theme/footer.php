@@ -3,8 +3,9 @@
 
 </div><!-- #page -->
 
-<footer class="footer p-10 bg-base-300 text-base-content">
-  <nav>
+<div>
+  <footer class="footer container p-0 mx-auto text-base-content pb-10">
+    <nav>
     <header class="footer-title">Services</header> 
     <a class="link link-hover">Branding</a>
     <a class="link link-hover">Design</a>
@@ -27,6 +28,10 @@
     </div>
   </nav>
 </footer>
+<div class="border-t-2 border-gray-300">
+<div class="container p-0 mx-auto">
+  <div class="text-xs text-center p-10">© 2023 PLUSLE THEME ALL RIGHTS RESERVED</div>
+</div>
 
 <?php wp_footer(); ?>
 <script>
