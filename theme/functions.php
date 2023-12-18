@@ -30,6 +30,7 @@ add_action('after_setup_theme', function () {
 	remove_filter('render_block', 'wp_render_layout_support_flag');
 	remove_filter('render_block', 'wp_restore_group_inner_container');
 
+
 	//add_filter('get_site_icon_url', '__return_false');
 	add_filter('the_generator', '__return_null');
 	add_filter('use_block_editor_for_post_type', '__return_false');
@@ -39,6 +40,7 @@ add_action('after_setup_theme', function () {
 //     exit;
 // }
 add_action('init', function () {
+	remove_action( 'woocommerce_before_shop_loop', 'woocommerce_output_all_notices', 10 );	
 	remove_action('wp_head', 'wc_gallery_noscript');
 	wp_deregister_script('comment-reply');
 });
