@@ -63,9 +63,9 @@ add_action('wp_enqueue_scripts', 'woo_dequeue_select2', 100);
 
 add_action('wp_enqueue_scripts', function () {
 	// sort by doesnt work without jquery, find replacement
-	//wp_deregister_script('jquery');
-	//wp_deregister_script('jquery-core');
-	//wp_dequeue_script('jquery-blockui');
+	wp_deregister_script('jquery');
+	wp_deregister_script('jquery-core');
+	wp_dequeue_script('jquery-blockui');
 	wp_deregister_script('wc-cart-fragments');
 
 	wp_deregister_style('woocommerce-inline');
