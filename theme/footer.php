@@ -6,18 +6,20 @@
 <div class="bg-base-200">
   <footer class="footer container p-0 mx-auto text-base-content pb-10 pt-32">
     <nav>
-    <header class="footer-title">Services</header>
-    <a class="link link-hover">Branding</a>
-    <a class="link link-hover">Design</a>
-    <a class="link link-hover">Marketing</a>
-    <a class="link link-hover">Advertisement</a>
+    <header class="footer-title">HELP</header>
+    <a class="link link-hover">FAQs</a>
+    <a class="link link-hover">Terms & Conditions</a>
+    <a class="link link-hover">Privacy Policy</a>
+    <a class="link link-hover">Shipping Policy</a>
+    <a class="link link-hover">Returns & Refunds</a>
+    <a class="link link-hover">Track your Order</a>
   </nav>
   <nav>
-    <header class="footer-title">Company</header>
+    <header class="footer-title">INFORMATION</header>
+    <a class="link link-hover">Store</a>
     <a class="link link-hover">About us</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
-    <a class="link link-hover">Press kit</a>
+    <a class="link link-hover">Contact us</a>
+    <a class="link link-hover">News</a>
   </nav>
   <nav>
     <header class="footer-title">Social</header>
