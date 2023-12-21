@@ -8,6 +8,7 @@ if (post_password_required()) {
     echo get_the_password_form(); // WPCS: XSS ok.
     return;
 }
+woocommerce_output_all_notices();
 ?>
 <div id="product-<?php the_ID(); ?>" class="container mx-auto text-base-content">
 
