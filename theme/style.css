@@ -4578,6 +4578,10 @@ input.tab:checked + .tab-content,
   margin-top: 1.5rem;
 }
 
+.mr-8 {
+  margin-right: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -4965,6 +4969,18 @@ input.tab:checked + .tab-content,
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .text-left {

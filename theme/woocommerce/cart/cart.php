@@ -219,20 +219,22 @@ do_action( 'woocommerce_before_cart' ); ?>
 </div>
 
 
+<div class="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 lg:max-w-7xl lg:px-8">
+
+<div class="mt-12 lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16">
 
 
-
-<form class="" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
+<form class="lg:col-span-7" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 
 	<table class="" cellspacing="0">
 		<thead>
 			<tr>
 				<th class=""><span class="screen-reader-text"><?php esc_html_e( 'Remove item', 'woocommerce' ); ?></span></th>
 				<th class=""><span class="screen-reader-text"><?php esc_html_e( 'Thumbnail image', 'woocommerce' ); ?></span></th>
-				<th class=""><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
-				<th class=""><?php esc_html_e( 'Price', 'woocommerce' ); ?></th>
-				<th class=""><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
-				<th class=""><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
+				<th class=""></th>
+				<th class=""></th>
+				<th class=""></th>
+				<th class=""></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -247,14 +249,14 @@ do_action( 'woocommerce_before_cart' ); ?>
 					?>
 					<tr class="<?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 				
-						<td class="">
+						<td>
 						<?php
             $thumbnail_url = get_the_post_thumbnail_url($_product->get_id(), 'medium');
             echo '<img class="h-24 w-24 rounded-md object-cover object-center sm:h-48 sm:w-48" src="' . $thumbnail_url . '" alt="' . esc_attr( $_product->get_name() ) . '" />';       
 						?>
 						</td>
 
-						<td class="ml-4" data-title="<?php esc_attr_e( 'Product', 'woocommerce' ); ?>">
+						<td class="pr-10" data-title="<?php esc_attr_e( 'Product', 'woocommerce' ); ?>">
 						<?php
 						if ( ! $product_permalink ) {
 							echo wp_kses_post( $product_name . '&nbsp;' );
@@ -273,13 +275,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 						</td>
 
-						<td class="product-price mt-1 text-sm font-medium text-gray-900" data-title="<?php esc_attr_e( 'Price', 'woocommerce' ); ?>">
+						<td class="pr-10 product-price mt-1 text-sm font-medium text-gray-900" data-title="<?php esc_attr_e( 'Price', 'woocommerce' ); ?>">
 							<?php
 								echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
 							?>
 						</td>
 
-						<td class="" data-title="<?php esc_attr_e( 'Quantity', 'woocommerce' ); ?>">
+						<td  class="pr-10" data-title="<?php esc_attr_e( 'Quantity', 'woocommerce' ); ?>">
 						<?php
 						if ( $_product->is_sold_individually() ) {
 							$min_quantity = 1;
@@ -305,7 +307,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 						</td>
 
-						<td class="product-price mt-1 text-sm font-medium text-gray-900" data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>">
+						<td class="pr-10 product-price mt-1 text-sm font-medium text-gray-900" data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>">
 							<?php
 								echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
 							?>
@@ -367,7 +369,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
 
-<div class="">
+<div class="mt-16 rounded-lg bg-gray-50 px-4 py-6 sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8">
 	<?php
 		/**
 		 * Cart collaterals hook.
@@ -378,4 +380,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 	?>
 </div>
 
-<?php do_action( 'woocommerce_after_cart' ); ?>
+</div>
+</div>
+
+<?php
+// do_action( 'woocommerce_after_cart' );
+ ?>
