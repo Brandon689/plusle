@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
-<div class="">
+<div class="container">
 
 	<?php
 		//do_action( 'woocommerce_before_main_content' );

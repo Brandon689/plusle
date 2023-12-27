@@ -54,3 +54,21 @@
 .entry-content > .alignright {
 	@apply float-right ml-8;
 }
+
+
+
+/*.button {
+	@apply btn btn-primary;
+}*/
+.woocommerce-message .button {
+	order: 1;
+}
+.woocommerce-message {
+	@apply flex justify-between;
+	padding: 1rem;
+	background: lightblue;
+	border-radius: 5px;
+}
+.woocommerce-notices-wrapper {
+	max-width: 800px;
+}

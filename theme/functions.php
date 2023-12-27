@@ -76,8 +76,6 @@ add_action('wp_enqueue_scripts', function () {
 
 
 
-
-
 function wc_cart_totals_order_total_html2() {
 	$value = '' . WC()->cart->get_total() . ' ';
 

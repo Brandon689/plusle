@@ -62,6 +62,8 @@ defined( 'ABSPATH' ) || exit;
 	</dl>
 
 
+
+
 	<div class="wc-proceed-to-checkout">
 		<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 	</div>
