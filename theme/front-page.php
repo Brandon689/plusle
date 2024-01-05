@@ -64,8 +64,113 @@
     </div>
   </section>
 
+  <div class="relative overflow-hidden bg-white">
+  <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+    <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+      <div class="sm:max-w-lg">
+        <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Summer styles are finally here</h1>
+        <p class="mt-4 text-xl text-gray-500">This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care if you live or die.</p>
+      </div>
+      <div>
+        <div class="mt-10">
+          <!-- Decorative image grid -->
+          <div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
+            <div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+              <div class="flex items-center space-x-6 lg:space-x-8">
+                <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                  <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                    <img src="https://prod-america-res.popmart.com/default/20240103_172739_684674__1200x1200.jpg?x-oss-process=image/resize,p_40" alt="" class="h-full w-full object-cover object-center">
+                  </div>
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="https://prod-america-res.popmart.com/default/20231225_174243_991266__1200x1200.jpg?x-oss-process=image/resize,p_40" alt="" class="h-full w-full object-cover object-center">
+                  </div>
+                </div>
+                <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="https://prod-america-res.popmart.com/default/20231228_142119_388867__1200x1200.jpg?x-oss-process=image/resize,p_40" alt="" class="h-full w-full object-cover object-center">
+                  </div>
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="https://prod-america-res.popmart.com/default/01_ZFFqx6fTrp_1200x1200.jpg?x-oss-process=image/resize,p_40" alt="" class="h-full w-full object-cover object-center">
+                  </div>
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="https://prod-america-res.popmart.com/default/20231016_163248_559285__1200x1200.jpg?x-oss-process=image/resize,p_40" alt="" class="h-full w-full object-cover object-center">
+                  </div>
+                </div>
+                <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="https://prod-america-res.popmart.com/default/1_3g3tvGbJ44_1200x1200.jpg?x-oss-process=image/resize,p_40" alt="" class="h-full w-full object-cover object-center">
+                  </div>
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="https://prod-america-res.popmart.com/default/20230928_182940_153660__1200x1200.jpg?x-oss-process=image/resize,p_40" alt="" class="h-full w-full object-cover object-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">Shop Collection</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br>
+
+  <img src="https://prod-out-res.popmart.com/cms/pc_1920x800_5c1baf01dd.jpg?x-oss-process=image/resize,p_90" alt="" class="h-full w-full object-cover object-center">
+
+
+  <div>
+  <div class="flex flex-col border-b border-gray-200 lg:border-0">
+    <nav aria-label="Offers" class="order-last lg:order-first">
+      <div class="mx-auto max-w-7xl lg:px-8">
+        <ul role="list" class="grid grid-cols-1 divide-y divide-gray-200 lg:grid-cols-3 lg:divide-x lg:divide-y-0">
+          <li class="flex flex-col">
+            <a href="#" class="relative flex flex-1 flex-col justify-center bg-white px-4 py-6 text-center focus:z-10">
+              <p class="text-sm text-gray-500">Download the app</p>
+              <p class="font-semibold text-gray-900">Get an exclusive $5 off code</p>
+            </a>
+          </li>
+          <li class="flex flex-col">
+            <a href="#" class="relative flex flex-1 flex-col justify-center bg-white px-4 py-6 text-center focus:z-10">
+              <p class="text-sm text-gray-500">Return when you&#039;re ready</p>
+              <p class="font-semibold text-gray-900">60 days of free returns</p>
+            </a>
+          </li>
+          <li class="flex flex-col">
+            <a href="#" class="relative flex flex-1 flex-col justify-center bg-white px-4 py-6 text-center focus:z-10">
+              <p class="text-sm text-gray-500">Sign up for our newsletter</p>
+              <p class="font-semibold text-gray-900">15% off your first order</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <div class="relative">
+      <div aria-hidden="true" class="absolute hidden h-full w-1/2 bg-gray-100 lg:block"></div>
+      <div class="relative bg-gray-100 lg:bg-transparent">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:grid lg:grid-cols-2 lg:px-8">
+          <div class="mx-auto max-w-2xl py-24 lg:max-w-none lg:py-64">
+            <div class="lg:pr-16">
+              <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl xl:text-6xl">Focus on what matters</h1>
+              <p class="mt-4 text-xl text-gray-600">All the charts, datepickers, and notifications in the world can't beat checking off some items on a paper card.</p>
+              <div class="mt-6">
+                <a href="#" class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 font-medium text-white hover:bg-indigo-700">Shop Productivity</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-32 w-full sm:h-48 lg:absolute lg:right-0 lg:top-0 lg:h-full lg:w-1/2">
+        <img src="http://julia.local/wp-content/uploads/2024/01/pucky2_cc11d5ac-da98-44c2-8e4e-be130e258b61_900x.webp" alt="" class="h-full w-full object-cover object-center">
+      </div>
+    </div> -->
+  </div>
+</div>
+
+
   <?php
-  ProductGrid(12, 'DATE', 'desc');
+  ProductGrid(8, 'DATE', 'asc');
   ?>
 
 </main>

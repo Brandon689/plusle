@@ -13,9 +13,9 @@
 	  <div class="flex-1">
 	    <a class="btn btn-ghost text-xl" href="/"><img class="w-28" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/logo.jpg"/></a>
 		<ul class="menu uppercase menu-horizontal rounded-box text-base font-bold">
-			<li><a href="/shop">New Arrival</a></li>
-			<li><a href="/shop">Series</a></li>
-			<li><a href="/shop">Types</a></li>
+			<li><a href="/shop/">New Arrival</a></li>
+			<li><a href="/shop/">Series</a></li>
+			<li><a href="/shop/">Types</a></li>
 		</ul>
 	  </div>
 
@@ -33,7 +33,7 @@
 		   	</div>
 	    </a>
 	    <div class="dropdown dropdown-end">
-	      <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+	      <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
 	        <div class="w-10 rounded-full">
 	          <!-- <img alt="Tailwind CSS Navbar component" src="" /> -->
 			  <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

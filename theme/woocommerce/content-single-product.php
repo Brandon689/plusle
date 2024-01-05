@@ -51,5 +51,11 @@ woocommerce_output_all_notices();
 				</div>
 			</div>
 		</div>
+
+
+		<?php
+		display_variation_images();
+		?>
+		
 	</div>
 </div>

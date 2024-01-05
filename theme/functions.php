@@ -65,14 +65,37 @@ add_action('wp_enqueue_scripts', 'woo_dequeue_select2', 100);
 
 add_action('wp_enqueue_scripts', function () {
 	// sort by doesnt work without jquery, find replacement
-	wp_deregister_script('jquery');
-	wp_deregister_script('jquery-core');
+	//wp_deregister_script('jquery');
+	//wp_deregister_script('jquery-core');
 	wp_dequeue_script('jquery-blockui');
 	wp_deregister_script('wc-cart-fragments');
 
 	wp_deregister_style('woocommerce-inline');
 	wp_deregister_style('wp-block-library');
+	//wp_deregister_style( 'dashicons' ); 
 }, 100);
+
+
+
+
+
+
+function display_variation_images() {
+    global $product;
+
+    if ($product->is_type('variable')) {
+        $available_variations = $product->get_available_variations();
+
+        foreach ($available_variations as $variation) {
+            $image_id = $variation['image_id'];
+            $image_src = wp_get_attachment_image_src($image_id, 'full')[0];
+            echo '<img src="' . $image_src . '" alt="Variation Image">';
+        }
+    }
+}
+//add_action('woocommerce_after_add_to_cart_button', 'display_variation_images');
+
+
 
 
 
