@@ -119,6 +119,42 @@
   <img src="https://prod-out-res.popmart.com/cms/pc_1920x800_5c1baf01dd.jpg?x-oss-process=image/resize,p_90" alt="" class="h-full w-full object-cover object-center">
 
 
+
+  <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
+      <div class="container mx-auto">
+
+
+        <div class="mb-5">
+          <div class="flex flex-wrap items-center justify-center -mx-4">
+            <div class="order-last w-full px-4 lg:order-first lg:w-1/2 2xl:w-5/12">
+              <div>
+                <img src="https://demo.tailgrids.com/templates/planet/build/src/assets/ecom-images/products/recent-products-03/product-01.jpg" alt="Recent Product" class="w-full rounded-lg">
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 2xl:w-5/12">
+              <div class="mb-12 max-w-[465px] lg:ml-auto lg:mb-0">
+                <span class="block mb-4 text-lg font-semibold text-primary md:text-2xl">
+                  Start From $49
+                </span>
+                <h2 class="mb-5 text-2xl font-semibold !leading-tight text-dark dark:text-white xl:text-4xl">
+                  New Summer Collections For Man's Fashion.
+                </h2>
+                <p class="text-base text-body-color dark:text-dark-6 mb-9">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  sit amet molestie nunc. Vestibulum tempus justo et venenatis
+                  tempus. Nulla tincidunt,
+                </p>
+                <a href="javascript:void(0)" class="bg-primary inline-flex items-center justify-center rounded-md py-[13px] px-7 text-center text-base font-medium text-white hover:bg-blue-dark">
+                  View All Items
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
   <div>
   <div class="flex flex-col border-b border-gray-200 lg:border-0">
     <nav aria-label="Offers" class="order-last lg:order-first">

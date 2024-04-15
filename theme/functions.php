@@ -34,6 +34,7 @@ add_action('after_setup_theme', function () {
 	//add_filter('get_site_icon_url', '__return_false');
 	add_filter('the_generator', '__return_null');
 	add_filter('use_block_editor_for_post_type', '__return_false');
+	//add_filter( 'woocommerce_show_page_title', '__return_false' );
 });
 // add_action( 'do_faviconico', 'magic_favicon_remover');
 // function magic_favicon_remover() {
@@ -74,8 +75,6 @@ add_action('wp_enqueue_scripts', function () {
 	wp_deregister_style('wp-block-library');
 	//wp_deregister_style( 'dashicons' ); 
 }, 100);
-
-
 
 
 
@@ -180,7 +179,7 @@ function wc_cart_totals_order_total_html2() {
   
 	}
 	  
-	$string = '<div class="quantity"><select class="max-w-full rounded-md border border-gray-300 py-1.5 text-left text-base font-medium leading-5 text-gray-700 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm" name="' . $args['input_name'] . '">' . $options . '</select></div>';
+	$string = '<div class="quantity"><select class="p-6 border-none" name="' . $args['input_name'] . '">' . $options . '</select></div>';
   
 	if ( $echo ) {
 	   echo $string;

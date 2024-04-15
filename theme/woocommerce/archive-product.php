@@ -15,7 +15,7 @@ do_action( 'woocommerce_before_main_content' );
 woocommerce_output_all_notices();
 if ( woocommerce_product_loop() ) {
 
-	?><div class="flex justify-between w-96"><?php
+	?><div class="flex justify-between w-96 pt-4"><?php
 	do_action( 'woocommerce_before_shop_loop' );
 	?></div>
 	<ul class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
